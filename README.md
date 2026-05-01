@@ -1,13 +1,13 @@
 # Vesper
 
-An eye-friendly dark/light theme for Zed and VS Code. Designed for long coding sessions: values use warm colors (green, amber), structure uses cool colors (purple, blue, teal), identifiers stay neutral. WCAG AAA contrast on dark, AA on light.
+A warm, amber-accented dark/light theme for Zed and VS Code. Designed for long coding sessions: keywords glow amber gold on a true charcoal background, types contrast in cool teal, and identifiers stay neutral so nothing drowns the signal. WCAG AAA contrast on dark, AA on light.
 
 ## Variants
 
 | | Background | Accent |
 |---|---|---|
-| **Vesper Dark** | `#1e1e2e` near-black navy | purple · blue · teal |
-| **Vesper Light** | `#eff1f5` warm off-white | purple · blue · teal |
+| **Vesper Dark** | `#101010` charcoal | amber · teal · sage |
+| **Vesper Light** | `#f5f0e8` warm cream | amber · teal · green |
 
 ## Installation
 
@@ -37,14 +37,14 @@ Values use **warm** colors so they stand out as data. Structure uses **cool** co
 
 | Role | Dark | Light |
 |------|------|-------|
-| Background | `#1e1e2e` | `#eff1f5` |
-| Foreground (identifiers) | `#cdd6f4` | `#4c4f69` |
-| Keyword | `#cba6f7` | `#8839ef` |
-| Function | `#89b4fa` | `#1e66f5` |
-| Type | `#94e2d5` | `#179299` |
-| String | `#a6e3a1` | `#40a02b` |
-| Number | `#f9e2af` | `#df8e1d` |
-| Comment | `#9399b2` | `#9ca0b0` |
+| Background | `#101010` | `#f5f0e8` |
+| Foreground (identifiers) | `#d4c9b0` | `#2c2520` |
+| Keyword | `#cc9944` | `#9a6600` |
+| Function | `#e8b86d` | `#7a5000` |
+| Type | `#6ec6c6` | `#1a7878` |
+| String | `#8fbe8f` | `#2d7a2d` |
+| Number | `#d4956a` | `#b86030` |
+| Comment | `#5c5445` | `#9a9080` |
 
 ## Customization
 
