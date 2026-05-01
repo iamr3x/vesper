@@ -27,13 +27,13 @@ export const dark: Palette = {
   bg_surface:    "#181818",
   bg_elevated:   "#0c0c0c",
   fg:            "#d4c9b0",  // warm cream — candlelight on paper
-  fg_muted:      "#6b6050",  // warm muted brown
+  fg_muted:      "#857a6a",  // warm muted (4.51:1 AA)
   keyword:       "#cc9944",  // amber gold — Vesper signature color
   fn:            "#e8b86d",  // lighter amber — callable
   type:          "#6ec6c6",  // teal — cool contrast to warm amber
   string:        "#8fbe8f",  // sage green — string values
-  string_escape: "#e07b54",  // warm coral — escape seqs
-  comment:       "#5c5445",  // warm dark gray ≥4.5:1
+  string_escape: "#e88860",  // warm coral — escape seqs (7.34:1 AAA)
+  comment:       "#908878",  // warm muted gray (5.40:1 AA)
   number:        "#d4956a",  // warm orange — numeric
   parameter:     "#b088c8",  // soft purple — parameter declarations
   operator:      "#888888",  // neutral gray — structural
@@ -50,14 +50,14 @@ export const light: Palette = {
   bg_surface:    "#ede8e0",
   bg_elevated:   "#e0dbd0",
   fg:            "#2c2520",  // warm dark brown — not pure black
-  fg_muted:      "#8a7a6a",  // warm muted
-  keyword:       "#9a6600",  // dark amber — Vesper signature on light bg
+  fg_muted:      "#6e6258",  // warm muted (5.21:1 AA)
+  keyword:       "#8a5a00",  // dark amber — Vesper signature on light bg (5.23:1 AA)
   fn:            "#7a5000",  // darker amber-brown — callable
   type:          "#1a7878",  // dark teal — type system
   string:        "#2d7a2d",  // dark green — string values
   string_escape: "#b85030",  // dark coral — escape seqs
-  comment:       "#9a9080",  // warm gray — comments
-  number:        "#b86030",  // dark orange — numeric
+  comment:       "#706a60",  // warm gray (4.72:1 AA)
+  number:        "#a05020",  // dark orange — numeric (5.05:1 AA)
   parameter:     "#7a44aa",  // purple — parameter declarations
   operator:      "#606060",  // neutral dark gray
   tag:           "#aa3333",  // dark coral red — HTML tags
