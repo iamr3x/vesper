@@ -1,0 +1,32 @@
+{
+  "name": "vesper",
+  "displayName": "Vesper",
+  "description": "Vesper — a dark/light theme for Zed and VS Code",
+  "version": "0.1.0",
+  "publisher": "iamr3x",
+  "engines": { "vscode": "^1.60.0" },
+  "categories": ["Themes"],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Vesper Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/vesper-dark-color-theme.json"
+      },
+      {
+        "label": "Vesper Light",
+        "uiTheme": "vs",
+        "path": "./themes/vesper-light-color-theme.json"
+      }
+    ]
+  },
+  "scripts": {
+    "generate": "tsx src/generate.ts",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "tsx": "^4.7.0",
+    "typescript": "^5.4.0",
+    "vitest": "^1.6.0"
+  }
+}
